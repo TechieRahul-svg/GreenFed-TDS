@@ -1,4 +1,4 @@
-readme_content = """
+
 # Task 2: Dataset Preprocessing
 
 ## Objective
@@ -45,7 +45,6 @@ train/test split was performed.
 ## Conclusion
 Both datasets were cleaned and validated successfully,
 with all original rows and columns preserved.
-"""
 
 readme_path = TASK2_DIR / "README.md"
 readme_path.write_text(readme_content.strip(), encoding="utf-8")
